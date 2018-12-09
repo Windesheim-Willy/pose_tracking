@@ -65,7 +65,6 @@ catkin_make --pkg imu_tools
 catkin_make --pkg mpu6050_serial_to_imu
 ```
 
-catkin_make --pkg turtlebot
 
 # How to run
 ```
