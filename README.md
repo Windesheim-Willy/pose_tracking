@@ -64,7 +64,13 @@ git clone https://github.com/Windesheim-Willy/pose_tracking.git pose_tracking
 catkin_make --pkg imu_tools
 catkin_make --pkg mpu6050_serial_to_imu
 ```
+# Map USB
 
+sudo nano /etc/udev/rules.d/99-usb-serial.rules
+
+KERNEL=="ttyACM*", ATTRS{idVendor}=="2341", SYMLINK+="sensor_pose"
+
+udevadm control --reload-rules
 
 # How to run
 ```
