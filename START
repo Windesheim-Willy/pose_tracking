@@ -4,7 +4,7 @@ NAME=sensor_pose
 ROSCORE_LOG=/var/log/sensor_pose.log
 ROSCORE_ERR=/var/log/sensor_pose.err
 PIDFILE=/var/run/$NAME.pid
-. /opt/ros/kinetic/setup.sh
+#. /opt/ros/kinetic/setup.sh
 date >> $ROSCORE_LOG
 date >> $ROSCORE_ERR
 
