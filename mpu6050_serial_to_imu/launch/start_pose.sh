@@ -1,2 +1,2 @@
 #!/bin/bash
-roslaunch mpu6050_serial_to_imu/launch/demo.launch
+roslaunch mpu6050_serial_to_imu demo.launch
